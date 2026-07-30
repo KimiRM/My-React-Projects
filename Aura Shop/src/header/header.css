@@ -1,0 +1,27 @@
+.Header{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; 
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.NavBar-container {
+    justify-self: start; /* Align left */
+}
+
+.Logo {
+    justify-self: center; /* Center */
+}
+
+.Toolbar {
+    justify-self: end; /* Align right */
+}
+
+.Logo-type{
+    font-size: 22px;
+    font-weight: 700;
+}
+

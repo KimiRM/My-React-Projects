@@ -1,0 +1,40 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.Footer-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Footer-contact-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+a{
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-shadow: 0px 12px 3px rgb(117, 116, 116);
+    transition: 0.5s ease;
+}
+
+.Footer span{
+    font-size: 18px;
+
+}
+.Footer-heart{
+    color: red;
+}

@@ -1,0 +1,60 @@
+.NavBar-btn{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+}
+.NavBar-btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.DropDown-btn{
+    border: 1px solid black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    background-color: black;
+}
+.DropDown-btn:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s ease;
+}
+.DropDown.NavBar-btn:hover ~ .DropDown-container{
+    display: block;
+}
+
+.toolbar-icon {
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    color: black;
+    size: 15px;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+}
+.toolbar-icon:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s ease;
+}
+
+.Footer-icon {
+    border: none;
+    background-color: transparent;
+    color: black;
+    size: 15px;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+}
+.Footer-icon:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s ease;
+}
