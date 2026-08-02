@@ -3,12 +3,12 @@ import Header from '../header/header';
 import Footer from '../Footer/Footer';
 import './Layout.css'
 
-const Layout = ({Children}) => {
+const Layout = ({children}) => {
     return (
-        <div>
+        <div className='Layout-container'>
             <Header></Header>
             <main className="Main-content">
-                {Children}
+                {children}
             </main>
             <Footer ></Footer>
         </div>

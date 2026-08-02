@@ -20,21 +20,39 @@
     gap: 5px;
 }
 
-a{
+.Footer a{
     font-weight: 700;
     color: black;
     text-decoration: none;
 }
 
-a:hover{
+.Footer a:hover{
     text-shadow: 0px 12px 3px rgb(117, 116, 116);
-    transition: 0.5s ease;
+    transition: 0.3s ease;
 }
 
-.Footer span{
-    font-size: 18px;
-
-}
 .Footer-heart{
     color: red;
+}
+
+.Footer span {
+    font-family: 'Solway';
+    font-size: 16px;
+}
+
+.Footer-contact-item:hover .Footer-icon {
+    color: white;
+    background-color: black;
+    transition: 0.3s ease;
+}
+
+.Footer-contact-item:hover .Footer-contact-span {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    transition: 0.3s ease;
+}
+
+.Footer-heart:hover , .Footer-coffee:hover{
+    text-shadow: 0px 12px 3px rgb(117, 116, 116);
+    transition: 0.3s ease;
 }

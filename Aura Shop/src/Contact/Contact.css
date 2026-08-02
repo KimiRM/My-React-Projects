@@ -1,0 +1,64 @@
+.Contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+}
+.Form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: left;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+    width: 700px;
+
+}
+
+.Button-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.material-symbols-outlined{
+    color: white;
+    size: 25px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.material-symbols-outlined:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s ease;
+}
+
+.ErrorMessage{
+    color:red;
+    font-family: 'solway';
+    font-size: 17px;
+}
+.SubmitMessage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    gap: 50px;
+    height: 70px;
+}
+.SubmitMessage-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.SubmitMessage-wrapper span{
+    font-family: 'Elms sans';
+}

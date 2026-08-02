@@ -1,0 +1,67 @@
+.ReviewMessage-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #888;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    width: 700px;
+}
+.ReviewMessage-header{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.ReviewMessage-header span{
+    font-family: 'Elms sans';
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.ReviewMessage-container:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+.ReviewMessage-Message {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    visibility: hidden;
+    margin-top: 0;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(-10px);
+}
+
+.ReviewMessage-Message.visible {
+    width: 100%;
+    max-height: 500px;
+    opacity: 1;
+    visibility: visible;
+    padding: 20px;
+    margin-top: 10px;
+    transform: translateY(0);
+}
+.ReviewMessage-Message label{
+    font-family: "Elms sans";
+    font-size: 20px;
+    color: #6a6a6a;
+}
+
+.ReviewMessage-Message span , .ReviewMessage-Message p{
+    font-family: "Solway";
+    font-size: 18px;
+    color: #4a4a4a;
+}

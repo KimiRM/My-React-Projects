@@ -1,0 +1,33 @@
+/* family=Asap:ital,wght@0,100..900;1,100..900           family=Elms+Sans:ital,wght@0,100..900;1,100..900 */
+
+.Input-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.Contact{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+.Contact:focus::placeholder{
+        color: white;
+}
+
+.Input-container label{
+    color: white;
+    font-family: 'Elms-sans';
+    font-size: 21px;
+}
+
+.Input-container input{
+    font-family: 'Solway';
+    font-size: 21px;
+    color: white;
+}

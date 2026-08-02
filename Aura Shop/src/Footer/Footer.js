@@ -7,19 +7,19 @@ const Footer = () => {
         <div className="Footer">
             <div className="Footer-contact">
                 <div className="Footer-contact-item">
-                    <Button className={'Footer-icon'} children={<i class="fa-brands fa-telegram"></i>}></Button>
+                    <Button className={'Footer-icon'} children={<i class="fa-brands fa-telegram"></i>} title="Telegram"></Button>
                     <span className="Footer-contact-span">@kimi_r_m</span>
                 </div>
                 <div className="Footer-contact-item">
-                    <Button className={'Footer-icon'} children={<i class="fa-solid fa-phone"></i>}></Button>
+                    <Button className={'Footer-icon'} children={<i class="fa-solid fa-phone"></i>} title="Telephone"></Button>
                     <span className="Footer-contact-span">+98 912 799 0224</span>
                 </div>
                 <div className="Footer-contact-item">
-                   <Button className={'Footer-icon'} children={<i class="fa-brands fa-github"></i>}></Button>
+                   <Button className={'Footer-icon'} children={<i class="fa-brands fa-github"></i>} title="Github"></Button>
                    <span className="Footer-contact-span">github.com/KimiRM/My-Portofolio</span>
                 </div>
             </div>
-            <span>Created with a lot of <span className="Footer-heart">❤</span> and ☕ by <a href="thisiskimia.ir">KimiRM</a></span>
+            <span>Created with a lot of <span className="Footer-heart">❤</span>  and  <span className="Footer-coffee">☕ </span> by   <a href="thisiskimia.ir">KimiRM</a></span>
         </div>
     );
 }

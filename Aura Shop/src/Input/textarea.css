@@ -1,0 +1,39 @@
+.Input-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: baseline;
+    padding: 20px;
+}
+
+.Contact-textarea{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+.Contact-textarea:focus::placeholder{
+        color: white;
+}
+
+.Contact-textarea:focus{
+    color: white;
+}
+
+.Input-container label{
+    color: white;
+    font-family: 'Elms-sans';
+    font-size: 21px;
+    padding-top: 8px;
+    white-space: nowrap;
+}
+
+.Contact-textarea{
+    font-family: 'Solway';
+    font-size: 21px;
+    color: white;
+    resize: vertical;
+    line-height: 1.5;
+}
