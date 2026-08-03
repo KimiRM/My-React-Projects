@@ -1,5 +1,6 @@
 import Layout from './Layout/Layout.js'
 import Contact from './Contact/Contact.js';
+import AboutUs from './About us/aboutUs.js';
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import './App.css';
 
@@ -12,7 +13,7 @@ function App() {
           <Route exact path='/Home' element={'Home'}>
 
           </Route>
-          <Route exact path='/about' element={'About us'}>
+          <Route exact path='/about' element={<AboutUs />}>
 
           </Route>
           

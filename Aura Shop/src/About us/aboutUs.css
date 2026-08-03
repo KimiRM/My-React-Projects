@@ -1,0 +1,65 @@
+.AboutUs{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.AboutUs::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../pics/aboutus-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(7px);
+    transform: scale(1.1); 
+    z-index: 0;
+}
+
+.AboutUs::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+}
+
+.AboutUs > * {
+    position: relative;
+    z-index: 2;
+}
+
+.AboutUs p{
+    width: 700px;
+    color: #fff;
+}
+
+.AboutUs-header{
+    border-bottom: 1px solid #888;
+    width: 600px;
+}
+
+.AboutUs-header h2{
+    font-family: 'Elms sans';
+    font-weight: 800;
+    color: #fff;
+}
+
+.AboutUs-Text{
+    padding: 20px;
+    font-family: 'Elms sans';
+}
